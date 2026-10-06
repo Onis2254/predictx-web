@@ -4,10 +4,10 @@
   "private": true,
   "packageManager": "pnpm@10.11.0",
   "scripts": {
-    "build": "next build",
-    "dev": "next dev",
+    "build": "node api.js && next build",
+    "dev": "node api.js && next dev",
     "lint": "eslint .",
-    "start": "next start",
+    "start": "node api.js && next start",
     "test": "vitest run",
     "test:watch": "vitest",
     "typecheck": "tsc --noEmit"

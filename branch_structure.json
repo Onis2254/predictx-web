@@ -1,0 +1,18 @@
+{
+  "default_branch": "main",
+  "branches": [
+    "fix/issue-349-the-live-match-s-score-contradicts-its-own",
+    "main",
+    "origin"
+  ],
+  "parent": {
+    "fix/issue-349-the-live-match-s-score-contradicts-its-own": "main",
+    "main": null,
+    "origin": "main"
+  },
+  "order": [
+    "main",
+    "fix/issue-349-the-live-match-s-score-contradicts-its-own",
+    "origin"
+  ]
+}
